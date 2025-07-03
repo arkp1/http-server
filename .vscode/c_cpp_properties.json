@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "\"includePath\": [",
+                "    \"/usr/include\",",
+                "    \"/usr/local/include\",",
+                "    \"http-server/**\"",
+                "]"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
