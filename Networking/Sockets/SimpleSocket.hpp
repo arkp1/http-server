@@ -22,6 +22,10 @@ public:
     //getter funcs
     struct sockaddr_in get_address();
     int get_sock();
-    int get_connection();     
+    int get_connection(); 
+    
+    //setter function
+    void set_connection(int con);
+
 };
 }
