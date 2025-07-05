@@ -1,14 +1,16 @@
-#include <stdio.h>
 #include "SimpleServer.hpp"
+#include "../Sockets/ListeningSocket.hpp" 
 
-HDE::SimpleServer::SimpleServer(int domain, int service, int port, int protocol, u_long interface, int bklg);
+namespace HDE {
 
-    {
-        socket = new ListeningSocket(domain, service, protocol, port, interface, bklg);
-        delete socket;
-    }
+SimpleServer::SimpleServer(int domain, int service, int port, int protocol, u_long interface, int bklg)
+{
+    socket = new ListeningSocket(domain, service, protocol, port, interface, bklg);
+}
 
-    HDE::ListeningSocket * HDE::SimpleServer::get_socket()
-    {
-        return socket;
-    }
+ListeningSocket* SimpleServer::get_socket()
+{
+    return socket;
+}
+
+}

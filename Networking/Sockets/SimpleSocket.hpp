@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdio.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -14,12 +16,15 @@ private:
     int connection;
 
 public:
-//constructor
+    //constructor
     SimpleSocket(int domain, int service, int protocol, int port, u_long interface);
+
     //virtual func to connect to network
     virtual void connect_to_network(int sock, struct sockaddr_in address) = 0;
+
     //func to test sockets and connections
     void test_connection(int);
+
     //getter funcs
     struct sockaddr_in get_address();
     int get_sock();
@@ -27,6 +32,5 @@ public:
     
     //setter function
     void set_connection(int con);
-
 };
 }

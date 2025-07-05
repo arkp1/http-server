@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "TestServer.hpp"
 
-int main()
-{
+int main() {
     HDE::TestServer t;
+    t.launch();
+    return 0;
 }
