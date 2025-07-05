@@ -12,5 +12,5 @@ BindingSocket(domain, service, port, protocol, interface)
 
 void HDE::ListeningSocket::start_listening()
 {
-    listening = listen(get_connection(), backlog);
+    listening = listen(get_sock(), backlog);
 }
