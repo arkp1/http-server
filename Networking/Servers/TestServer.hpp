@@ -5,7 +5,7 @@ namespace HDE {
     class TestServer: public SimpleServer
     {
         private:
-        char buffer(30000) = (0);
+        char buffer(30000) = {0};
         int new_socket();
         void acceptor();
         void handler();
@@ -14,5 +14,5 @@ namespace HDE {
         public:
         TestServer();
         void launch();
-    }
+    };
 }
