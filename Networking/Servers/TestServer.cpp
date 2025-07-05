@@ -7,7 +7,7 @@
 namespace HDE {
 
 TestServer::TestServer()
-    : SimpleServer(AF_INET, SOCK_STREAM, 0, 8080, INADDR_ANY, 10)
+    : SimpleServer(AF_INET, SOCK_STREAM, 0, 8082, INADDR_ANY, 10)
 {
     launch();
 }
@@ -22,12 +22,20 @@ void TestServer::acceptor()
 
 void TestServer::handler()
 {
-    std::cout << buffer << std::endl;
+    std::cout << std::string(buffer) << std::flush;
 }
+
 
 void TestServer::responder()
 {
-    const char *hello = "Hello from server";
+const char *hello = 
+    "HTTP/1.1 200 OK\r\n"
+    "Content-Type: text/plain\r\n"
+    "Content-Length: 17\r\n"
+    "\r\n"
+    "Hello from server";
+
+;
     write(new_socket, hello, strlen(hello));
     close(new_socket);
 }
