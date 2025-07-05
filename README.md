@@ -2,30 +2,10 @@
 
 This is a HTTP server implemented in C++ using raw sockets and object-oriented principles. The server listens on a specified port, accepts HTTP GET requests, and responds with a simple message.
 
-![Server Running Screenshot] [alt text](image.png)
+![Server Running Screenshot][alt text](image.png)
 
 ---
 
-##  Project Structure
-
-http-server/
-├── Servers/
-│ ├── SimpleServer.cpp
-│ ├── TestServer.cpp
-│ ├── SimpleServer.hpp
-│ ├── TestServer.hpp
-│ └── test.cpp
-├── Sockets/
-│ ├── SimpleSocket.cpp / .hpp
-│ ├── BindingSocket.cpp / .hpp
-│ ├── ListeningSocket.cpp / .hpp
-│ ├── ConnectingSocket.cpp / .hpp
-├── hdelibc-networking.hpp
-└── README.md
-
-
-
----
 
 ##  How It Works
 
