@@ -30,33 +30,18 @@ Hello from server
 
 ##  Build & Run
 
-```bash
+```bash```
 g++ Servers/test.cpp \
     Servers/TestServer.cpp Servers/SimpleServer.cpp \
     Sockets/SimpleSocket.cpp Sockets/BindingSocket.cpp \
     Sockets/ListeningSocket.cpp Sockets/ConnectingSocket.cpp \
     -o test.exe
 
-./test.exe ```
+./test.exe 
 
- ---
 
-# Sample Output
 
-===== Waiting =====
-GET / HTTP/1.1
-Host: localhost:8082
-User-Agent: curl/8.11.1
-Accept: */*
-===== Done =====
 
- Learnings
-
-   - Raw socket programming (AF_INET, SOCK_STREAM).
-
-   - Basic HTTP protocol structure.
-
-   - C++ virtual functions and abstraction for network layers.
 
 
 
