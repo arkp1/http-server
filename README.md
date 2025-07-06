@@ -39,8 +39,9 @@ g++ Servers/test.cpp \
 
 ./test.exe
 
+ ---
 
-Sample Output
+# Sample Output
 
 ===== Waiting =====
 GET / HTTP/1.1
