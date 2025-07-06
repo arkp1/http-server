@@ -53,6 +53,14 @@ Accept: */*
 ===== Done =====
 ``` 
 
+Test With Curl
+
+```
+curl http://localhost:8082
+```
+
+
+
  Learnings:
 
    - Raw socket programming (AF_INET, SOCK_STREAM).
