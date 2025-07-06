@@ -17,11 +17,13 @@ This is a HTTP server implemented in C++ using raw sockets and object-oriented p
 
 The server replies to every HTTP request with:
 
+```
 HTTP/1.1 200 OK
 Content-Type: text/plain
 Content-Length: 17
 
 Hello from server
+```
 
 ![alt text](image-1.png)
 
@@ -42,14 +44,16 @@ g++ Servers/test.cpp \
 
 ## Sample Output
 
+```
 ===== Waiting =====
 GET / HTTP/1.1
 Host: localhost:8082
 User-Agent: curl/8.11.1
 Accept: */*
-===== Done ===== 
+===== Done =====
+``` 
 
- Learnings
+ Learnings:
 
    - Raw socket programming (AF_INET, SOCK_STREAM).
 
