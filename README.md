@@ -42,12 +42,12 @@ g++ Servers/test.cpp \
 
 ## Sample Output
 
-` ===== Waiting =====
+===== Waiting =====
 GET / HTTP/1.1
 Host: localhost:8082
 User-Agent: curl/8.11.1
 Accept: */*
-===== Done ===== `
+===== Done ===== 
 
  Learnings
 
