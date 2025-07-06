@@ -53,7 +53,7 @@ Accept: */*
 ===== Done =====
 ``` 
 
-Test With Curl
+Test With Curl:
 
 ```
 curl http://localhost:8082
