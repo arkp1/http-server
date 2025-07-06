@@ -2,7 +2,7 @@
 
 This is a HTTP server implemented in C++ using raw sockets and object-oriented principles. The server listens on a specified port, accepts HTTP GET requests, and responds with a simple message.
 
-![Server Running Screenshot](screenshot.png)
+![Server Running Screenshot](./images/screenshot.png)
 
 ---
 
@@ -25,7 +25,7 @@ Content-Length: 17
 Hello from server
 ```
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 
 ---
