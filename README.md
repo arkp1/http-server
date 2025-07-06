@@ -30,7 +30,7 @@ Hello from server
 
 ##  Build & Run
 
-```bash```
+```bash
 g++ Servers/test.cpp \
     Servers/TestServer.cpp Servers/SimpleServer.cpp \
     Sockets/SimpleSocket.cpp Sockets/BindingSocket.cpp \
@@ -38,6 +38,7 @@ g++ Servers/test.cpp \
     -o test.exe
 
 ./test.exe 
+```
 
 
 
