@@ -40,6 +40,23 @@ g++ Servers/test.cpp \
 ./test.exe 
 ```
 
+## Sample Output
+
+` ===== Waiting =====
+GET / HTTP/1.1
+Host: localhost:8082
+User-Agent: curl/8.11.1
+Accept: */*
+===== Done ===== `
+
+ Learnings
+
+   - Raw socket programming (AF_INET, SOCK_STREAM).
+
+   - Basic HTTP protocol structure.
+
+   - C++ virtual functions and abstraction for network layers.
+
 
 
 
