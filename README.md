@@ -56,7 +56,7 @@ Accept: */*
 Test With Curl:
 
 ```
-curl http://localhost:8082
+curl http://localhost:[Your Port Number]
 ```
 
 
@@ -65,7 +65,7 @@ curl http://localhost:8082
 
    - Raw socket programming (AF_INET, SOCK_STREAM).
 
-   - Basic HTTP protocol structure.
+   - HTTP protocol structure.
 
    - C++ virtual functions and abstraction for network layers.
 
