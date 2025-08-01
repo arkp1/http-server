@@ -7,7 +7,7 @@ This is a HTTP server implemented in C++ using raw sockets and object-oriented p
 ---
 
 
-##  How It Works
+##  How It Works -
 
 - `SimpleSocket` – Abstract base for all socket types.
 - `BindingSocket` – Inherits from `SimpleSocket` and adds `bind()` logic.
