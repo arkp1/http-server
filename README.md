@@ -15,7 +15,7 @@ This is a HTTP server implemented in C++ using raw sockets and object-oriented p
 - `SimpleServer` – Abstract class defining the server lifecycle.
 - `TestServer` – Concrete implementation of a working HTTP server.
 
-The server replies to every HTTP request with
+The server replies to every HTTP request with:
 
 ```
 HTTP/1.1 200 OK
