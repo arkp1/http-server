@@ -5,7 +5,7 @@ This is a HTTP server implemented in C++ using raw sockets and object-oriented p
 ![Server Running Screenshot](./images/screenshot.png)
 
 ---
-
+...
 
 ##  How It Works -
 
